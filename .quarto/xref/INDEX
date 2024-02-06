@@ -1,14 +1,22 @@
 {
   "index.qmd": {
-    "index.html": "f3ab3c56"
+    "index.html": "f3ab3c56",
+    "index.tex": "82281a95"
   },
   "intro.qmd": {
-    "intro.html": "9bd83d0e"
+    "intro.html": "9bd83d0e",
+    "intro.tex": "fc45170e"
   },
   "summary.qmd": {
-    "summary.html": "5eb9de65"
+    "summary.html": "5eb9de65",
+    "summary.tex": "a4a7ae58"
   },
   "references.qmd": {
-    "references.html": "88b3fdb5"
+    "references.html": "88b3fdb5",
+    "references.tex": "63e36f30"
+  },
+  "week1.qmd": {
+    "week1.html": "be0bfcff",
+    "week1.tex": "14e80fbb"
   }
 }
