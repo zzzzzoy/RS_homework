@@ -1,0 +1,23 @@
+project:
+  type: book
+  output-dir: docs
+book:
+  title: "learning diary"
+  author: "Zhongzhen Ouyang"
+  date: "2024/2/1"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+
+
