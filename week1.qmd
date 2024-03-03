@@ -20,15 +20,22 @@
   4. Temporal resolution
      the time it revisits 
   
-  ### Application
-  #### Sentinel-2
+### Application
+
+#### Sentinel-2
 1. Spatial resolution of 10 m, 20 m and 60 m
 2. Revisiting every 10 days 
 3. Multi-spectral data with 13 bands in the visible, near-infrared, and short-wave infrared part of the spectrum
 
 - Application
-  1. Watching coastal waters. ![图例1](https://raw.githubusercontent.com/zzzzzoy/rs_homework/main/data/Watching_coastal_waters.jpg "图例1")
-  2. Monitoring inland water bodies
-  
+1. Monitoring inland water bodies. 
 
-  #### Landset
+<img src="https://github.com/zzzzzoy/rs_homework/blob/main/data/Monitoring_inland_water_bodies.gif?raw=true" alt="替代文本" title="gis1"  />
+
+
+2. Watching coastal waters. 
+
+<img src="https://github.com/zzzzzoy/rs_homework/blob/main/data/Watching_coastal_waters.jpg?raw=true" alt="替代文本" title="figure1"  />
+
+#### Landset
+

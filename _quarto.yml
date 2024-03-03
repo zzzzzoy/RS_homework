@@ -9,6 +9,8 @@ book:
     - index.qmd
     - intro.qmd
     - week1.qmd
+    - week6.qmd
+    - week7.qmd
     - references.qmd
 
 bibliography: references.bib
