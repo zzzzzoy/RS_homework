@@ -27,8 +27,8 @@
 3. Multi-spectral data with 13 bands in the visible, near-infrared, and short-wave infrared part of the spectrum
 
 - Application
-  1. Watching coastal waters. ![图例1](../rs_homework/data/Watching_coastal_waters.jpg "图例1")
+  1. Watching coastal waters. ![figure1](https://github.com/smshen/MarkdownPhotos/blob/master/Res/test.jpg "figure1")
   2. Monitoring inland water bodies
-  
 
+   
   #### Landset
