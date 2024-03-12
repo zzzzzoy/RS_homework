@@ -38,4 +38,30 @@
 <img src="https://github.com/zzzzzoy/rs_homework/blob/main/data/Watching_coastal_waters.jpg?raw=true" alt="替代文本" title="figure1"  />
 
 #### Landset
+The below figures are my practical output
+
+green rectangle = bare earth
+pink rectangle = vegetation
+purple rectangle = urban area
+red rectangle = water 
+
+<img src="https://github.com/zzzzzoy/rs_homework/blob/main/data/landset.png?raw=true" alt="替代文本" title="figure2"  />
+It seems that the 7 bands.tif file is too large for my computer.
+I only export GeoTIFFS with bands 2,3,4.
+
+spectral profiles
+<img src="https://github.com/zzzzzoy/rs_homework/blob/main/data/000010.png?raw=true" alt="替代文本" title="figure3"  />
+density plot
+<img src="https://github.com/zzzzzoy/rs_homework/blob/main/data/000016.png?raw=true" alt="替代文本" title="figure4"  />
+
+
+### reflection
+
+This is the very beginning of remote sensing, for me, it is the first contact for me with the subject. Almost everything is new for me. The only thing that I am familiar with is electromagnetic waves. Different wavelength gives electromagnetic waves different properties, like the penetrative ability.
+I thought longer wavelengths were easier to penetrate, while shorter wavelengths were more difficult. However, longer wavelengths of electromagnetic radiation, such as infrared and microwaves, tend to penetrate certain substances more easily. This is because some materials have lower absorption rates for longer wavelengths, allowing radiation of these wavelengths to penetrate relatively easily.
+
+ For other substances and specific wavelength ranges, the situation may be different. For example, some materials have high absorption rates for certain wavelengths of electromagnetic radiation, making it difficult for radiation of these wavelengths to penetrate the material. This is common in the visible light range, as many substances have high absorption rates for visible light, making it difficult for visible light to penetrate them. That is how the sensor identifies different materials. Also, remote sensing sensors can capture electromagnetic signals reflected or emitted from the Earth's surface and divide them into multiple different bands. For example, a sensor for visible light and infrared might be divided into several different bands, each corresponding to a specific part of the visible light or infrared spectrum. 
+ Different bands capture information about different types of features on the Earth's surface, so the choice of bands is crucial for the success of specific applications. That's why when I do practicals there are so many bands that make me confused initially.
+
+ Another question I met that could take much time for me to figure out is what are the differences between satellites. I know they have different resolutions and bands, but what do the differences refer to, what advantages do they have, and Why are so many types of satellites needed?
 
