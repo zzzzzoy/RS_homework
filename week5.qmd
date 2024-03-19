@@ -1,0 +1,30 @@
+---
+title: "Week 5 - Google Earth Engine"
+---
+
+## Summary
+Cloud Computing Platform
+
+### Terms
+Image = raster
+Feature = vector
+Image stack= ImageCollection
+Feature stack (lots of polygons) = FeatureColletion
+Image scale =  pixel resolution
+
+### Language - javascript
+
+- Website programming language
+- similar to python and R
+- define objects with  ```var``` e.g ``` var object = 1``` 
+  ```javascript
+var object = {string: "hello world", int: 1, float: 1.1};
+print('Print string:', object['string']);
+var x = 10;
+print(x)
+```
+- Earth Engine Objects = starting with ee 
+
+- Earth Engine 
+
+

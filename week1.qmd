@@ -1,4 +1,6 @@
-# Week1 
+---
+title: "Week 1 - Introduction to Remote Sensing"
+---
 
 ### Summary
 - Remote sensing is defined as acquiring information from a distance. Remote sensing can collect data without physical contact with objects by sensors. 

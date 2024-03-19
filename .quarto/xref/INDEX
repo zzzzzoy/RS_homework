@@ -30,5 +30,12 @@
   "docs/week1.qmd": {
     "week1.html": "218b70a9",
     "week1.tex": "2d5bb73d"
+  },
+  "week3.qmd": {
+    "week3.html": "64920be7",
+    "week3.tex": "f9c85ff1"
+  },
+  "week5.qmd": {
+    "week5.html": "b5f7ab32"
   }
 }

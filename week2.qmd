@@ -1,0 +1,8 @@
+---
+title: "Week 2 - Xaringan"
+---
+github link: https://github.com/zzzzzoy/RS_xaringan
+```{r xaringan_embed, echo=FALSE}
+xaringanExtra::embed_xaringan(url = "https://zzzzzoy.github.io/RS_xaringan/", ratio = "4:3")
+
+```
