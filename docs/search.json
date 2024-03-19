@@ -46,7 +46,7 @@
     "href": "week5.html#summary",
     "title": "5  Week 5 - Google Earth Engine",
     "section": "5.1 Summary",
-    "text": "5.1 Summary\nCloud Computing Platform\n\n5.1.1 Terms\nImage = raster Feature = vector Image stack= ImageCollection Feature stack (lots of polygons) = FeatureColletion Image scale = pixel resolution\n\n\n5.1.2 Language - javascript\n\nWebsite programming language\nsimilar to python and R\ndefine objects with var e.g var object = 1\nvar object = {string: \"hello world\", int: 1, float: 1.1};\nprint('Print string:', object['string']);\nvar x = 10;\nprint(x)\nEarth Engine Objects = starting with ee\nEarth Engine"
+    "text": "5.1 Summary\nCloud Computing Platform\n\n5.1.1 Terms\n\nmage = raster\nFeature = vector\nImage stack= ImageCollection\nFeature stack (lots of polygons) = FeatureColletion\nImage scale = pixel resolution\n\n\n\n5.1.2 Language - javascript\n\nWebsite programming language\nsimilar to python and R\ndefine objects with var\ne.g\nvar object = {string: \"hello world\", int: 1, float: 1.1};\nprint('Print string:', object['string']);\nvar x = 10;\nprint(x)\n\n\n\n5.1.3 Server side\n\nSome codes that run on the server side\nGEE Objects = starting with ee stored on the server\nGEE function"
   },
   {
     "objectID": "week6.html",
