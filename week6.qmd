@@ -2,18 +2,42 @@
 title: "Week 6 - classification 1"
 ---
 
-## Summary
+### Summary
 This week we learned the application of machine learning in classification in remote sensing.
 
-### Classification and Regression Trees (CART)
+#### Classification and Regression Trees (CART)
 - uses a tree structure with nodes representing features, branches indicating decisions based on feature values, and leaf nodes showing predicted class labels (for classification) or numerical values (for regression)
 - recursively splits the feature space to maximize homogeneity within subsets, using measures like Gini impurity (for classification) or lowest SSR (for regression)
 - allows controlling tree complexity with parameters like maximum depth and minimum samples per node, preventing overfitting and improving generalization.
 
-### Random Forest
+#### Random Forest
 
 - a machine learning algorithm based on ensemble learning. It consists of multiple decision trees, where each tree is a weak learner
 - introduces randomness to improve model generalization. It uses random sampling and random feature selection when building each decision tree, resulting in diversity among the trees(never all of them)
 -  employs Bagging (Bootstrap Aggregating) to construct each decision tree. It creates multiple training sets by sampling from the original dataset with replacement, and builds a decision tree on each training set
 -  When constructing each decision tree, Random Forest randomly selects a subset of features to consider for splitting nodes, rather than using all features. This helps reduce feature correlation and increases model diversity
 - determination of the prediction: the class with the most votes is selected as the final prediction for classification tasks, while for regression tasks, the average prediction of all trees is taken.
+
+#### Support Vector Machine (SVM) - Supervised classification
+- linear binary classifier - like logistic regression
+- Maximum margin between two classes of training data = maximum margin classifier
+- Points on the boundaries (and within) are support vectors
+- Middle margin is called the separating hyperplane
+- the hyperplane is determined by finding the optimal decision boundary while penalizing misclassifications. 
+- The parameter C controls the trade-off between maximizing the margin and minimizing the classification error.
+- Gamma (or Sigma) low = big radius for classified points, high = low radius for classified points
+
+### Application
+- SVM
+
+This article 'Support vector machines for classification in remote sensing'(Pal and Mather, 2005) demonstrates the excellent performance of Support Vector Machines (SVM) in classification tasks within the field of remote sensing. The study presents findings from two experiments, comparing multi-class SVMs with maximum likelihood (ML) and artificial neural network (ANN) methods regarding classification accuracy. The experiments involve land cover classification using multispectral (Landsat-7 ETM+) and hyperspectral (DAIS) data in test areas located in eastern England and central Spain, respectively. Our results demonstrate that SVM achieves superior classification accuracy compared to both ML and ANN classifiers. Furthermore, SVM exhibits effectiveness with small training datasets and high-dimensional data.
+
+- RM
+
+Increasing Ntree typically improves model performance as it reduces overfitting and enhances generalization by aggregating predictions from multiple trees. However, increasing Ntree also increases computational costs, so there is a trade-off between model performance and computational resources. Typically, an appropriate value for Ntree can be selected through experimentation or empirical knowledge to achieve the desired classification or regression outcome. So, when I was learning about random forest, I felt a bit confused about this empirically chosen parameter, Ntree.
+This article 'Random forest in remote sensing: A review of applications and future directions'(Belgiu and Drăguţ, 2016) concludes, based on a review of other studies, that setting the default value of Ntree to 500 is acceptable when using the RF classifier on remotely sensed data.
+
+
+### Reflection
+
+This week, we focused on the application of machine learning in classification, which covered a lot of material similar to what we learned in casa006. Therefore, I found it relatively easy to understand. However, SVM was a method I wasn't very familiar with, so I spent more time reading literature on this topic. I also discovered that SVM and Artificial Neural Networks are quite popular nowadays and yield accurate classification results. Nonetheless, I feel that machine learning encompasses a vast amount of knowledge, and I have only scratched the surface. I believe I need to dedicate more time to learning in order to deepen my understanding of machine learning.

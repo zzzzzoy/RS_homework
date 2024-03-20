@@ -163,11 +163,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary"><span class="header-section-number">7.1</span> Summary</a>
-  <ul class="collapse">
-  <li><a href="#classification-and-regression-trees-cart" id="toc-classification-and-regression-trees-cart" class="nav-link" data-scroll-target="#classification-and-regression-trees-cart"><span class="header-section-number">7.1.1</span> Classification and Regression Trees (CART)</a></li>
-  <li><a href="#random-forest" id="toc-random-forest" class="nav-link" data-scroll-target="#random-forest"><span class="header-section-number">7.1.2</span> Random Forest</a></li>
-  </ul></li>
+  <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary"><span class="header-section-number">7.0.1</span> Summary</a></li>
+  <li><a href="#application" id="toc-application" class="nav-link" data-scroll-target="#application"><span class="header-section-number">7.0.2</span> Application</a></li>
+  <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection"><span class="header-section-number">7.0.3</span> Reflection</a></li>
   </ul>
 </nav>
     </div>
@@ -191,19 +189,19 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="summary" class="level2" data-number="7.1">
-<h2 data-number="7.1" class="anchored" data-anchor-id="summary"><span class="header-section-number">7.1</span> Summary</h2>
+<section id="summary" class="level3" data-number="7.0.1">
+<h3 data-number="7.0.1" class="anchored" data-anchor-id="summary"><span class="header-section-number">7.0.1</span> Summary</h3>
 <p>This week we learned the application of machine learning in classification in remote sensing.</p>
-<section id="classification-and-regression-trees-cart" class="level3" data-number="7.1.1">
-<h3 data-number="7.1.1" class="anchored" data-anchor-id="classification-and-regression-trees-cart"><span class="header-section-number">7.1.1</span> Classification and Regression Trees (CART)</h3>
+<section id="classification-and-regression-trees-cart" class="level4" data-number="7.0.1.1">
+<h4 data-number="7.0.1.1" class="anchored" data-anchor-id="classification-and-regression-trees-cart"><span class="header-section-number">7.0.1.1</span> Classification and Regression Trees (CART)</h4>
 <ul>
 <li>uses a tree structure with nodes representing features, branches indicating decisions based on feature values, and leaf nodes showing predicted class labels (for classification) or numerical values (for regression)</li>
 <li>recursively splits the feature space to maximize homogeneity within subsets, using measures like Gini impurity (for classification) or lowest SSR (for regression)</li>
 <li>allows controlling tree complexity with parameters like maximum depth and minimum samples per node, preventing overfitting and improving generalization.</li>
 </ul>
 </section>
-<section id="random-forest" class="level3" data-number="7.1.2">
-<h3 data-number="7.1.2" class="anchored" data-anchor-id="random-forest"><span class="header-section-number">7.1.2</span> Random Forest</h3>
+<section id="random-forest" class="level4" data-number="7.0.1.2">
+<h4 data-number="7.0.1.2" class="anchored" data-anchor-id="random-forest"><span class="header-section-number">7.0.1.2</span> Random Forest</h4>
 <ul>
 <li>a machine learning algorithm based on ensemble learning. It consists of multiple decision trees, where each tree is a weak learner</li>
 <li>introduces randomness to improve model generalization. It uses random sampling and random feature selection when building each decision tree, resulting in diversity among the trees(never all of them)</li>
@@ -211,9 +209,36 @@ ul.task-list li input[type="checkbox"] {
 <li>When constructing each decision tree, Random Forest randomly selects a subset of features to consider for splitting nodes, rather than using all features. This helps reduce feature correlation and increases model diversity</li>
 <li>determination of the prediction: the class with the most votes is selected as the final prediction for classification tasks, while for regression tasks, the average prediction of all trees is taken.</li>
 </ul>
-
-
 </section>
+<section id="support-vector-machine-svm---supervised-classification" class="level4" data-number="7.0.1.3">
+<h4 data-number="7.0.1.3" class="anchored" data-anchor-id="support-vector-machine-svm---supervised-classification"><span class="header-section-number">7.0.1.3</span> Support Vector Machine (SVM) - Supervised classification</h4>
+<ul>
+<li>linear binary classifier - like logistic regression</li>
+<li>Maximum margin between two classes of training data = maximum margin classifier</li>
+<li>Points on the boundaries (and within) are support vectors</li>
+<li>Middle margin is called the separating hyperplane</li>
+<li>the hyperplane is determined by finding the optimal decision boundary while penalizing misclassifications.</li>
+<li>The parameter C controls the trade-off between maximizing the margin and minimizing the classification error.</li>
+<li>Gamma (or Sigma) low = big radius for classified points, high = low radius for classified points</li>
+</ul>
+</section>
+</section>
+<section id="application" class="level3" data-number="7.0.2">
+<h3 data-number="7.0.2" class="anchored" data-anchor-id="application"><span class="header-section-number">7.0.2</span> Application</h3>
+<ul>
+<li>SVM</li>
+</ul>
+<p>This article ‘Support vector machines for classification in remote sensing’(Pal and Mather, 2005) demonstrates the excellent performance of Support Vector Machines (SVM) in classification tasks within the field of remote sensing. The study presents findings from two experiments, comparing multi-class SVMs with maximum likelihood (ML) and artificial neural network (ANN) methods regarding classification accuracy. The experiments involve land cover classification using multispectral (Landsat-7 ETM+) and hyperspectral (DAIS) data in test areas located in eastern England and central Spain, respectively. Our results demonstrate that SVM achieves superior classification accuracy compared to both ML and ANN classifiers. Furthermore, SVM exhibits effectiveness with small training datasets and high-dimensional data.</p>
+<ul>
+<li>RM</li>
+</ul>
+<p>Increasing Ntree typically improves model performance as it reduces overfitting and enhances generalization by aggregating predictions from multiple trees. However, increasing Ntree also increases computational costs, so there is a trade-off between model performance and computational resources. Typically, an appropriate value for Ntree can be selected through experimentation or empirical knowledge to achieve the desired classification or regression outcome. So, when I was learning about random forest, I felt a bit confused about this empirically chosen parameter, Ntree. This article ‘Random forest in remote sensing: A review of applications and future directions’(Belgiu and Drăguţ, 2016) concludes, based on a review of other studies, that setting the default value of Ntree to 500 is acceptable when using the RF classifier on remotely sensed data.</p>
+</section>
+<section id="reflection" class="level3" data-number="7.0.3">
+<h3 data-number="7.0.3" class="anchored" data-anchor-id="reflection"><span class="header-section-number">7.0.3</span> Reflection</h3>
+<p>This week, we focused on the application of machine learning in classification, which covered a lot of material similar to what we learned in casa006. Therefore, I found it relatively easy to understand. However, SVM was a method I wasn’t very familiar with, so I spent more time reading literature on this topic. I also discovered that SVM and Artificial Neural Networks are quite popular nowadays and yield accurate classification results. Nonetheless, I feel that machine learning encompasses a vast amount of knowledge, and I have only scratched the surface. I believe I need to dedicate more time to learning in order to deepen my understanding of machine learning.</p>
+
+
 </section>
 
 </main> <!-- /main -->
