@@ -218,7 +218,7 @@
 
 \begin{document}
 \maketitle
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[borderline west={3pt}{0pt}{shadecolor}, interior hidden, enhanced, breakable, boxrule=0pt, sharp corners, frame hidden]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[interior hidden, boxrule=0pt, borderline west={3pt}{0pt}{shadecolor}, sharp corners, enhanced, frame hidden, breakable]}{\end{tcolorbox}}\fi
 
 \renewcommand*\contentsname{Table of contents}
 {
@@ -364,7 +364,9 @@ rectangle = urban area red rectangle = water
 It seems that the 7 bands.tif file is too large for my computer. I only
 export GeoTIFFS with bands 2,3,4.
 
-spectral profiles density plot
+spectral profiles
+
+density plot
 
 \hypertarget{reflection}{%
 \subsection{reflection}\label{reflection}}
@@ -405,18 +407,25 @@ advantages do they have, and Why are so many types of satellites needed?
 
 \bookmarksetup{startatroot}
 
+\hypertarget{week-2---xaringan}{%
+\chapter{Week 2 - Xaringan}\label{week-2---xaringan}}
+
+github link: https://github.com/zzzzzoy/RS\_xaringan
+
+\bookmarksetup{startatroot}
+
 \hypertarget{week-3---remote-sensing-data}{%
 \chapter{Week 3 - Remote sensing
 data}\label{week-3---remote-sensing-data}}
 
 \hypertarget{summary-1}{%
-\section{Summary}\label{summary-1}}
+\subsection{Summary}\label{summary-1}}
 
 \hypertarget{corrections}{%
-\subsection{Corrections}\label{corrections}}
+\subsubsection{Corrections}\label{corrections}}
 
 \hypertarget{geometric}{%
-\subsubsection{Geometric}\label{geometric}}
+\paragraph{Geometric}\label{geometric}}
 
 \begin{itemize}
 \tightlist
@@ -458,7 +467,7 @@ data}\label{week-3---remote-sensing-data}}
 \end{enumerate}
 
 \hypertarget{atmospheric}{%
-\subsubsection{Atmospheric}\label{atmospheric}}
+\paragraph{Atmospheric}\label{atmospheric}}
 
 \begin{itemize}
 \tightlist
@@ -495,7 +504,7 @@ data}\label{week-3---remote-sensing-data}}
 \end{enumerate}
 
 \hypertarget{orthorectification-topographic-correction}{%
-\subsubsection{Orthorectification / Topographic
+\paragraph{Orthorectification / Topographic
 correction}\label{orthorectification-topographic-correction}}
 
 \begin{enumerate}
@@ -512,7 +521,7 @@ correction}\label{orthorectification-topographic-correction}}
 \end{enumerate}
 
 \hypertarget{radiometric-calibration}{%
-\subsubsection{Radiometric Calibration}\label{radiometric-calibration}}
+\paragraph{Radiometric Calibration}\label{radiometric-calibration}}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
@@ -535,11 +544,11 @@ correction}\label{orthorectification-topographic-correction}}
 \end{itemize}
 
 \hypertarget{joining-data-setsenhancements}{%
-\subsection{Joining data
+\subsubsection{Joining data
 sets/Enhancements}\label{joining-data-setsenhancements}}
 
 \hypertarget{joining-data-sets}{%
-\subsubsection{Joining data sets}\label{joining-data-sets}}
+\paragraph{Joining data sets}\label{joining-data-sets}}
 
 \begin{itemize}
 \tightlist
@@ -553,7 +562,7 @@ sets/Enhancements}\label{joining-data-setsenhancements}}
 \end{itemize}
 
 \hypertarget{enhancements}{%
-\subsubsection{Enhancements}\label{enhancements}}
+\paragraph{Enhancements}\label{enhancements}}
 
 \begin{itemize}
 \tightlist
@@ -584,7 +593,7 @@ sets/Enhancements}\label{joining-data-setsenhancements}}
 \end{itemize}
 
 \hypertarget{application-1}{%
-\section{Application}\label{application-1}}
+\subsection{Application}\label{application-1}}
 
 Due to its extensive history, simplicity, and utilization of readily
 accessible multi-spectral bands, the NDVI has emerged as the predominant
@@ -617,7 +626,7 @@ accompanied by strong winds or other extreme weather conditions, which
 could potentially damage tall and lush vegetation.
 
 \hypertarget{reflection-1}{%
-\section{Reflection}\label{reflection-1}}
+\subsection{Reflection}\label{reflection-1}}
 
 This week's lesson on correction seems very similar to what we
 previously learned about data cleaning. Satellite images often have
@@ -640,12 +649,12 @@ broadened my perspective significantly.
 Engine}\label{week-5---google-earth-engine}}
 
 \hypertarget{summary-2}{%
-\section{Summary}\label{summary-2}}
+\subsection{Summary}\label{summary-2}}
 
-Cloud Computing Platform
+Cloud Computing Platform for planetary-scale geospatial analysis
 
 \hypertarget{terms}{%
-\subsection{Terms}\label{terms}}
+\subsubsection{Terms}\label{terms}}
 
 \begin{itemize}
 \tightlist
@@ -662,7 +671,7 @@ Cloud Computing Platform
 \end{itemize}
 
 \hypertarget{language---javascript}{%
-\subsection{Language - javascript}\label{language---javascript}}
+\subsubsection{Language - javascript}\label{language---javascript}}
 
 \begin{itemize}
 \item
@@ -685,7 +694,7 @@ Cloud Computing Platform
 \end{itemize}
 
 \hypertarget{server-side}{%
-\subsection{Server side}\label{server-side}}
+\subsubsection{Server side}\label{server-side}}
 
 \begin{itemize}
 \tightlist
@@ -698,11 +707,11 @@ Cloud Computing Platform
 \end{itemize}
 
 \hypertarget{advantages-and-limitations}{%
-\subsection{Advantages and
+\subsubsection{Advantages and
 limitations}\label{advantages-and-limitations}}
 
 \hypertarget{overview-of-gee-code-editor}{%
-\subsection{Overview of GEE Code
+\subsubsection{Overview of GEE Code
 Editor}\label{overview-of-gee-code-editor}}
 
 \includegraphics{index_files/mediabag/annotated_playground.png}
@@ -710,7 +719,7 @@ Editor}\label{overview-of-gee-code-editor}}
 (Source: Google Earth Engine)
 
 \hypertarget{application-2}{%
-\section{Application}\label{application-2}}
+\subsection{Application}\label{application-2}}
 
 \begin{itemize}
 \tightlist
@@ -721,17 +730,192 @@ Editor}\label{overview-of-gee-code-editor}}
   (Source: M. Amani et al., 2020)
 \end{itemize}
 
+A specific example of an application is that Hansen et al.~(2013)
+utilized decision trees generated from extensive training data and a
+deep stack of metrics computed from Landsat scenes to characterize
+forest extent, loss, and gain from 2000 to 2012(Gorelick et al., 2017).
+The article `High-Resolution Global Maps of 21st-Century Forest Cover
+Change'(Hansen et al., 2013) investigates global forest cover change
+from 2000 to 2012 using data with a spatial resolution of 30 meters.
+This high-resolution global study represents a significant advancement
+over previous studies conducted at coarser scales. The study quantifies
+forest loss and gain using specific methodologies and provides annual
+loss information. This detailed quantification offers more accurate
+data, facilitating a deeper understanding of forest change trends. By
+employing spatially explicit methods, the study results are more precise
+and interpretable in spatial terms. This enhances the ability to
+accurately locate and analyze factors and patterns influencing forest
+cover change. GEE facilitated the processing of large-scale Landsat
+imagery datasets, allowing for efficient computation of metrics and
+decision tree generation. This enabled the researchers to analyze forest
+cover change globally over a significant period. GEE's capabilities were
+leveraged to conduct spatially explicit analyses, enabling the
+researchers to map forest cover extent, loss, and gain at a high spatial
+resolution of 30 meters. This spatial specificity provided detailed
+insights into global forest dynamics.
+
+\hypertarget{reflection-2}{%
+\subsection{Reflection}\label{reflection-2}}
+
+This week, we learned a new tool for research called Google Earth
+Engine, which allows us to run code on servers. During the practical
+exercises, I noticed a significant increase in speed compared to running
+code locally, especially when compared to tools like SNAP, which felt
+quite slow. Tasks such as Mosaic images, Clip images, Texture measures,
+and PCA, which we previously learned, can all be completed on Google
+Earth Engine's servers. The only difference is that Google Earth Engine
+uses a different programming language, JavaScript, which I wasn't very
+familiar with at the beginning. However, as I followed along with the
+practical exercises, I found that its logic is similar to Python and R,
+which made it easier for me to pick up. As a result, I became more and
+more proficient with it as I progressed through the exercises.
+
+\bookmarksetup{startatroot}
+
+\hypertarget{week-6---classification-1}{%
+\chapter{Week 6 - classification 1}\label{week-6---classification-1}}
+
+\hypertarget{summary-3}{%
+\subsection{Summary}\label{summary-3}}
+
+This week we learned the application of machine learning in
+classification in remote sensing.
+
+\hypertarget{classification-and-regression-trees-cart}{%
+\subsubsection{Classification and Regression Trees
+(CART)}\label{classification-and-regression-trees-cart}}
+
+\begin{itemize}
+\tightlist
+\item
+  uses a tree structure with nodes representing features, branches
+  indicating decisions based on feature values, and leaf nodes showing
+  predicted class labels (for classification) or numerical values (for
+  regression)
+\item
+  recursively splits the feature space to maximize homogeneity within
+  subsets, using measures like Gini impurity (for classification) or
+  lowest SSR (for regression)
+\item
+  allows controlling tree complexity with parameters like maximum depth
+  and minimum samples per node, preventing overfitting and improving
+  generalization.
+\end{itemize}
+
+\hypertarget{random-forest}{%
+\subsubsection{Random Forest}\label{random-forest}}
+
+\begin{itemize}
+\tightlist
+\item
+  a machine learning algorithm based on ensemble learning. It consists
+  of multiple decision trees, where each tree is a weak learner
+\item
+  introduces randomness to improve model generalization. It uses random
+  sampling and random feature selection when building each decision
+  tree, resulting in diversity among the trees(never all of them)
+\item
+  employs Bagging (Bootstrap Aggregating) to construct each decision
+  tree. It creates multiple training sets by sampling from the original
+  dataset with replacement, and builds a decision tree on each training
+  set
+\item
+  When constructing each decision tree, Random Forest randomly selects a
+  subset of features to consider for splitting nodes, rather than using
+  all features. This helps reduce feature correlation and increases
+  model diversity
+\item
+  determination of the prediction: the class with the most votes is
+  selected as the final prediction for classification tasks, while for
+  regression tasks, the average prediction of all trees is taken.
+\end{itemize}
+
+\hypertarget{support-vector-machine-svm---supervised-classification}{%
+\subsubsection{Support Vector Machine (SVM) - Supervised
+classification}\label{support-vector-machine-svm---supervised-classification}}
+
+\begin{itemize}
+\tightlist
+\item
+  linear binary classifier - like logistic regression
+\item
+  Maximum margin between two classes of training data = maximum margin
+  classifier
+\item
+  Points on the boundaries (and within) are support vectors
+\item
+  Middle margin is called the separating hyperplane
+\item
+  the hyperplane is determined by finding the optimal decision boundary
+  while penalizing misclassifications.
+\item
+  The parameter C controls the trade-off between maximizing the margin
+  and minimizing the classification error.
+\item
+  Gamma (or Sigma) low = big radius for classified points, high = low
+  radius for classified points
+\end{itemize}
+
+\hypertarget{application-3}{%
+\subsection{Application}\label{application-3}}
+
+\begin{itemize}
+\tightlist
+\item
+  SVM
+\end{itemize}
+
+This article `Support vector machines for classification in remote
+sensing'(Pal and Mather, 2005) demonstrates the excellent performance of
+Support Vector Machines (SVM) in classification tasks within the field
+of remote sensing. The study presents findings from two experiments,
+comparing multi-class SVMs with maximum likelihood (ML) and artificial
+neural network (ANN) methods regarding classification accuracy. The
+experiments involve land cover classification using multispectral
+(Landsat-7 ETM+) and hyperspectral (DAIS) data in test areas located in
+eastern England and central Spain, respectively. Our results demonstrate
+that SVM achieves superior classification accuracy compared to both ML
+and ANN classifiers. Furthermore, SVM exhibits effectiveness with small
+training datasets and high-dimensional data.
+
+\begin{itemize}
+\tightlist
+\item
+  RM
+\end{itemize}
+
+Increasing Ntree typically improves model performance as it reduces
+overfitting and enhances generalization by aggregating predictions from
+multiple trees. However, increasing Ntree also increases computational
+costs, so there is a trade-off between model performance and
+computational resources. Typically, an appropriate value for Ntree can
+be selected through experimentation or empirical knowledge to achieve
+the desired classification or regression outcome. So, when I was
+learning about random forest, I felt a bit confused about this
+empirically chosen parameter, Ntree. This article `Random forest in
+remote sensing: A review of applications and future directions'(Belgiu
+and Drăguţ, 2016) concludes, based on a review of other studies, that
+setting the default value of Ntree to 500 is acceptable when using the
+RF classifier on remotely sensed data.
+
+\hypertarget{reflection-3}{%
+\subsection{Reflection}\label{reflection-3}}
+
+This week, we focused on the application of machine learning in
+classification, which covered a lot of material similar to what we
+learned in casa006. Therefore, I found it relatively easy to understand.
+However, SVM was a method I wasn't very familiar with, so I spent more
+time reading literature on this topic. I also discovered that SVM and
+Artificial Neural Networks are quite popular nowadays and yield accurate
+classification results. Nonetheless, I feel that machine learning
+encompasses a vast amount of knowledge, and I have only scratched the
+surface. I believe I need to dedicate more time to learning in order to
+deepen my understanding of machine learning.
+
 \bookmarksetup{startatroot}
 
 \hypertarget{section}{%
 \chapter{}\label{section}}
-
-\href{/data/Monitoring_inland_water_bodies.gif}{11}
-
-\bookmarksetup{startatroot}
-
-\hypertarget{section-1}{%
-\chapter{}\label{section-1}}
 
 1
 
