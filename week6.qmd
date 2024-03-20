@@ -1,2 +1,19 @@
+---
+title: "Week 6 - classification 1"
+---
 
-[11](/data/Monitoring_inland_water_bodies.gif "1"){height=9 width=16}
+## Summary
+This week we learned the application of machine learning in classification in remote sensing.
+
+### Classification and Regression Trees (CART)
+- uses a tree structure with nodes representing features, branches indicating decisions based on feature values, and leaf nodes showing predicted class labels (for classification) or numerical values (for regression)
+- recursively splits the feature space to maximize homogeneity within subsets, using measures like Gini impurity (for classification) or lowest SSR (for regression)
+- allows controlling tree complexity with parameters like maximum depth and minimum samples per node, preventing overfitting and improving generalization.
+
+### Random Forest
+
+- a machine learning algorithm based on ensemble learning. It consists of multiple decision trees, where each tree is a weak learner
+- introduces randomness to improve model generalization. It uses random sampling and random feature selection when building each decision tree, resulting in diversity among the trees(never all of them)
+-  employs Bagging (Bootstrap Aggregating) to construct each decision tree. It creates multiple training sets by sampling from the original dataset with replacement, and builds a decision tree on each training set
+-  When constructing each decision tree, Random Forest randomly selects a subset of features to consider for splitting nodes, rather than using all features. This helps reduce feature correlation and increases model diversity
+- determination of the prediction: the class with the most votes is selected as the final prediction for classification tasks, while for regression tasks, the average prediction of all trees is taken.

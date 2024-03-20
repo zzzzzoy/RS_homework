@@ -32,12 +32,12 @@ title: "Week 1 - Introduction to Remote Sensing"
 - Application
 1. Monitoring inland water bodies. 
 
-<img src="https://github.com/zzzzzoy/rs_homework/blob/main/data/Monitoring_inland_water_bodies.gif?raw=true" alt="替代文本" title="gis1"  />
+<img src="https://github.com/zzzzzoy/rs_homework/blob/main/data/Monitoring_inland_water_bodies.gif?raw=true" alt="替代文本" title="gis1" width="600px"  />
 
 
 2. Watching coastal waters. 
 
-<img src="https://github.com/zzzzzoy/rs_homework/blob/main/data/Watching_coastal_waters.jpg?raw=true" alt="替代文本" title="figure1"  />
+<img src="https://github.com/zzzzzoy/rs_homework/blob/main/data/Watching_coastal_waters.jpg?raw=true" alt="替代文本" title="figure1" width="600px"  />
 
 #### Landset
 The below figures are my practical output
@@ -47,13 +47,17 @@ pink rectangle = vegetation
 purple rectangle = urban area
 red rectangle = water 
 
-<img src="https://github.com/zzzzzoy/rs_homework/blob/main/data/landset.png?raw=true" alt="替代文本" title="figure2"  />
+<img src="https://github.com/zzzzzoy/rs_homework/blob/main/data/landset.png?raw=true" alt="替代文本" title="figure2" width="600px" />
+
 It seems that the 7 bands.tif file is too large for my computer.
 I only export GeoTIFFS with bands 2,3,4.
 
 spectral profiles
+
 <img src="https://github.com/zzzzzoy/rs_homework/blob/main/data/000010.png?raw=true" alt="替代文本" title="figure3"  />
+
 density plot
+
 <img src="https://github.com/zzzzzoy/rs_homework/blob/main/data/000016.png?raw=true" alt="替代文本" title="figure4"  />
 
 

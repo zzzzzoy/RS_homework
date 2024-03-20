@@ -1,10 +1,10 @@
 ---
 title: "Week 3 - Remote sensing data"
 ---
-## Summary
-### Corrections
+### Summary
+#### Corrections
 
-####  Geometric
+#####  Geometric
 
 
 - Four reasons make image distortions: 
@@ -19,7 +19,7 @@ title: "Week 3 - Remote sensing data"
  2. decide which model to be used(The model with the lowest RMSE will fit best) 
  3.  re-sample the final raster
   
-#### Atmospheric
+##### Atmospheric
   
 - Sources:
 1.  Atmospheric scattering 
@@ -31,25 +31,25 @@ title: "Week 3 - Remote sensing data"
 3. Psuedo-invariant Features (PIFs)
 4. Atmospheric radiative transfer models 
 
-#### Orthorectification / Topographic correction
+##### Orthorectification / Topographic correction
 1. Cosine correction
 2. Minnaert correction
 3. Statistical Empirical correction
 4. C Correction (advancing the Cosine)
 
-#### Radiometric Calibration
+##### Radiometric Calibration
 1.  Radiometric Calibration = Digital Number to spectral radiance(true spectral radiance on earth surfaces is different with spectral radiance that sensors capture)
 2.  Sensor calibration: We use measurements to adjust 
 3.  Reflectance: A ratio comparing the quantity of light emitted by a target to the quantity of light incident upon it.
    - should be considered in radiance correction
 
-### Joining data sets/Enhancements
-#### Joining data sets
+#### Joining data sets/Enhancements
+##### Joining data sets
 - If one image is not sufficient to cover the area we wish to study, we need to merge several images.
 - is called 'Mosaicking' in remote sensing
 - feather images together 
   
-#### Enhancements
+##### Enhancements
 - Ratio
 1. to identify a certain landscape feature
 2. principle of NDVI: vegetation reflects more in the NIR but absorbs in the Red wavelength
@@ -58,11 +58,11 @@ title: "Week 3 - Remote sensing data"
 - Data fusion
 - PCA
 
-## Application
+### Application
 Due to its extensive history, simplicity, and utilization of readily accessible multi-spectral bands, the NDVI has emerged as the predominant index employed for evaluating vegetation(Huang et al., 2021). The article 'Application of Normalized Difference Vegetation Index (NDVI) for the Detection of Extreme Precipitation Change'(Pei, Zhou and Xia, 2021) shows the application of NDVI in detecting extreme precipitation. NDVI can reflect extreme precipitation events because such events impact vegetation activity, potentially leading to lush vegetation and consequently higher NDVI values. By observing changes in NDVI values, one can assess variations in extreme precipitation. This study analyzed the application of minimum, average, and maximum NDVI in detecting extreme precipitation changes, using the middle and lower reaches of the Yangtze River as a case study. In this region, the location with the highest NDVI value represents the most vigorous vegetation growth. The study compared the performance of these three NDVI indicators in responding to extreme precipitation changes. They found that the maximum NDVI is more suitable for capturing the response of vegetation activity to extreme precipitation events. From my understanding, their approach involves setting a threshold to determine extreme precipitation events and then conducting separate correlation analyses between the three NDVI indicators and extreme precipitation intensity and frequency. The indicator with the highest correlation value is better at reflecting extreme precipitation events. Interestingly, the maximum NDVI value showed a negative correlation with extreme precipitation intensity and frequency, while the other two showed positive correlations. This implies that intense precipitation is detrimental to the growth of tall and lush vegetation. I speculate that intense precipitation may be accompanied by strong winds or other extreme weather conditions, which could potentially damage tall and lush vegetation.
 
 
-## Reflection
+### Reflection
 
 This week's lesson on correction seems very similar to what we previously learned about data cleaning. Satellite images often have imperfections, and you need methods to correct them. Just like dealing with data in GIS and FSDS, you may need to remove NA values and handle outliers. Mosaicking is akin to merging or joining datasets, while enhancement involves processing the data to extract desired information, such as mean, extremes, and density. NDVI can highlight vegetation, and PCA can reduce dimensionality.
 

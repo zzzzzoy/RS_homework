@@ -2,20 +2,20 @@
 title: "Week 5 - Google Earth Engine"
 ---
 
-## Summary
-Cloud Computing Platform
+### Summary
+Cloud Computing Platform for planetary-scale geospatial analysis
 
-### Terms
+#### Terms
 - mage = raster
 - Feature = vector
 - Image stack= ImageCollection
 - Feature stack (lots of polygons) = FeatureColletion
 - Image scale =  pixel resolution
 
-### Language - javascript
+#### Language - javascript
 
 - Website programming language
-- similar to python and R
+- similar to Python and R
 - define objects with  ```var```
   
    e.g 
@@ -26,8 +26,28 @@ var x = 10;
 print(x)
 ```
 
-### Server side
+
+
+
+#### Server side
 - Some codes that run on the server side
 - GEE Objects = starting with ee stored on the server
-- GEE function
+- Overview of GEE functions
 <img src="https://github.com/zzzzzoy/rs_homework/blob/main/data/amani3-3021052-small.gif?raw=true" alt="替代文本" title="(M. Amani et al., 2020)"  />
+
+#### Advantages and limitations
+<img src="https://github.com/zzzzzoy/rs_homework/blob/main/data/amani.t1-3021052-small.gif?raw=true" alt="替代文本" title="(M. Amani et al., 2020)"  />
+
+#### Overview of GEE Code Editor
+![](https://github.com/zzzzzoy/rs_homework/blob/main/data/annotated_playground.png?raw=true)
+<center>(Source: Google Earth Engine)</center>
+
+### Application
+- This is a summary of the applications of GEE
+![](https://github.com/zzzzzoy/rs_homework/blob/main/data/amani7-3021052-small.gif?raw=true)
+<center>(Source: M. Amani et al., 2020)</center>
+
+A specific example of an application is that Hansen et al. (2013) utilized decision trees generated from extensive training data and a deep stack of metrics computed from Landsat scenes to characterize forest extent, loss, and gain from 2000 to 2012(Gorelick et al., 2017). The article 'High-Resolution Global Maps of 21st-Century Forest Cover Change'(Hansen et al., 2013) investigates global forest cover change from 2000 to 2012 using data with a spatial resolution of 30 meters. This high-resolution global study represents a significant advancement over previous studies conducted at coarser scales. The study quantifies forest loss and gain using specific methodologies and provides annual loss information. This detailed quantification offers more accurate data, facilitating a deeper understanding of forest change trends.  By employing spatially explicit methods, the study results are more precise and interpretable in spatial terms. This enhances the ability to accurately locate and analyze factors and patterns influencing forest cover change. GEE facilitated the processing of large-scale Landsat imagery datasets, allowing for efficient computation of metrics and decision tree generation. This enabled the researchers to analyze forest cover change globally over a significant period. GEE's capabilities were leveraged to conduct spatially explicit analyses, enabling the researchers to map forest cover extent, loss, and gain at a high spatial resolution of 30 meters. This spatial specificity provided detailed insights into global forest dynamics.
+
+### Reflection
+This week, we learned a new tool for research called Google Earth Engine, which allows us to run code on servers. During the practical exercises, I noticed a significant increase in speed compared to running code locally, especially when compared to tools like SNAP, which felt quite slow. Tasks such as Mosaic images, Clip images, Texture measures, and PCA, which we previously learned, can all be completed on Google Earth Engine's servers. The only difference is that Google Earth Engine uses a different programming language, JavaScript, which I wasn't very familiar with at the beginning. However, as I followed along with the practical exercises, I found that its logic is similar to Python and R, which made it easier for me to pick up. As a result, I became more and more proficient with it as I progressed through the exercises.
