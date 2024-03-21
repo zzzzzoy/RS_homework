@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>learning diary - 2&nbsp; Introduction</title>
+<title>learning diary - 6&nbsp; Week 5 - Google Earth Engine</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,26 +20,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
 }
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
 }
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -49,8 +64,8 @@ div.csl-indent {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./week1.html" rel="next">
-<link href="./index.html" rel="prev">
+<link href="./week6.html" rel="next">
+<link href="./week4.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -93,7 +108,7 @@ div.csl-indent {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./intro.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Introduction</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./week5.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Week 5 - Google Earth Engine</span></a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -126,56 +141,50 @@ div.csl-indent {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./intro.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="./week1.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Week 1 - Introduction to Remote Sensing</span></span></a>
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Week 1 - Introduction to Remote Sensing</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week2.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Week 2 - Xaringan</span></span></a>
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Week 2 - Xaringan</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week3.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Week 3 - Remote sensing data</span></span></a>
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Week 3 - Remote sensing data</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week4.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">week4.html</span></span></a>
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Week 4 - Policy</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./week5.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Week 5 - Google Earth Engine</span></span></a>
+  <a href="./week5.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Week 5 - Google Earth Engine</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week6.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Week 6 - classification 1</span></span></a>
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Week 6 - classification 1</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week7.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Week 6 - classification 2</span></span></a>
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Week 7 - classification 2</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week8.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">week8.html</span></span></a>
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Week 8 - SAR</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -190,14 +199,22 @@ div.csl-indent {
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary"><span class="header-section-number">6.0.1</span> Summary</a></li>
+  <li><a href="#application" id="toc-application" class="nav-link" data-scroll-target="#application"><span class="header-section-number">6.0.2</span> Application</a></li>
+  <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection"><span class="header-section-number">6.0.3</span> Reflection</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Introduction</span></h1>
+<h1 class="title"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Week 5 - Google Earth Engine</span></h1>
 </div>
 
 
@@ -212,15 +229,68 @@ div.csl-indent {
 
 </header>
 
-<p>This is a book created from markdown and executable code.</p>
-<p>See <span class="citation" data-cites="knuth84">Knuth (<a href="references.html#ref-knuth84" role="doc-biblioref">1984</a>)</span> for additional discussion of literate programming.</p>
+<section id="summary" class="level3" data-number="6.0.1">
+<h3 data-number="6.0.1" class="anchored" data-anchor-id="summary"><span class="header-section-number">6.0.1</span> Summary</h3>
+<p>Cloud Computing Platform for planetary-scale geospatial analysis</p>
+<section id="terms" class="level4" data-number="6.0.1.1">
+<h4 data-number="6.0.1.1" class="anchored" data-anchor-id="terms"><span class="header-section-number">6.0.1.1</span> Terms</h4>
+<ul>
+<li>mage = raster</li>
+<li>Feature = vector</li>
+<li>Image stack= ImageCollection</li>
+<li>Feature stack (lots of polygons) = FeatureColletion</li>
+<li>Image scale = pixel resolution</li>
+</ul>
+</section>
+<section id="language---javascript" class="level4" data-number="6.0.1.2">
+<h4 data-number="6.0.1.2" class="anchored" data-anchor-id="language---javascript"><span class="header-section-number">6.0.1.2</span> Language - javascript</h4>
+<ul>
+<li><p>Website programming language</p></li>
+<li><p>similar to Python and R</p></li>
+<li><p>define objects with <code>var</code></p>
+<p>e.g</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="kw">var</span> object <span class="op">=</span> {<span class="dt">string</span><span class="op">:</span> <span class="st">"hello world"</span><span class="op">,</span> <span class="dt">int</span><span class="op">:</span> <span class="dv">1</span><span class="op">,</span> <span class="dt">float</span><span class="op">:</span> <span class="fl">1.1</span>}<span class="op">;</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(<span class="st">'Print string:'</span><span class="op">,</span> object[<span class="st">'string'</span>])<span class="op">;</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="kw">var</span> x <span class="op">=</span> <span class="dv">10</span><span class="op">;</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(x)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+</ul>
+</section>
+<section id="server-side" class="level4" data-number="6.0.1.3">
+<h4 data-number="6.0.1.3" class="anchored" data-anchor-id="server-side"><span class="header-section-number">6.0.1.3</span> Server side</h4>
+<ul>
+<li>Some codes that run on the server side</li>
+<li>GEE Objects = starting with ee stored on the server</li>
+<li>Overview of GEE functions <img src="https://github.com/zzzzzoy/rs_homework/blob/main/data/amani3-3021052-small.gif?raw=true" alt="替代文本" title="(M. Amani et al., 2020)"></li>
+</ul>
+</section>
+<section id="advantages-and-limitations" class="level4" data-number="6.0.1.4">
+<h4 data-number="6.0.1.4" class="anchored" data-anchor-id="advantages-and-limitations"><span class="header-section-number">6.0.1.4</span> Advantages and limitations</h4>
+<p><img src="https://github.com/zzzzzoy/rs_homework/blob/main/data/amani.t1-3021052-small.gif?raw=true" alt="替代文本" title="(M. Amani et al., 2020)"></p>
+</section>
+<section id="overview-of-gee-code-editor" class="level4" data-number="6.0.1.5">
+<h4 data-number="6.0.1.5" class="anchored" data-anchor-id="overview-of-gee-code-editor"><span class="header-section-number">6.0.1.5</span> Overview of GEE Code Editor</h4>
+<img src="https://github.com/zzzzzoy/rs_homework/blob/main/data/annotated_playground.png?raw=true" class="img-fluid">
+<center>
+(Source: Google Earth Engine)
+</center>
+</section>
+</section>
+<section id="application" class="level3" data-number="6.0.2">
+<h3 data-number="6.0.2" class="anchored" data-anchor-id="application"><span class="header-section-number">6.0.2</span> Application</h3>
+<ul>
+<li>This is a summary of the applications of GEE <img src="https://github.com/zzzzzoy/rs_homework/blob/main/data/amani7-3021052-small.gif?raw=true" class="img-fluid">
+<center>
+(Source: M. Amani et al., 2020)
+</center></li>
+</ul>
+<p>A specific example of an application is that Hansen et al.&nbsp;(2013) utilized decision trees generated from extensive training data and a deep stack of metrics computed from Landsat scenes to characterize forest extent, loss, and gain from 2000 to 2012(Gorelick et al., 2017). The article ‘High-Resolution Global Maps of 21st-Century Forest Cover Change’(Hansen et al., 2013) investigates global forest cover change from 2000 to 2012 using data with a spatial resolution of 30 meters. This high-resolution global study represents a significant advancement over previous studies conducted at coarser scales. The study quantifies forest loss and gain using specific methodologies and provides annual loss information. This detailed quantification offers more accurate data, facilitating a deeper understanding of forest change trends. By employing spatially explicit methods, the study results are more precise and interpretable in spatial terms. This enhances the ability to accurately locate and analyze factors and patterns influencing forest cover change. GEE facilitated the processing of large-scale Landsat imagery datasets, allowing for efficient computation of metrics and decision tree generation. This enabled the researchers to analyze forest cover change globally over a significant period. GEE’s capabilities were leveraged to conduct spatially explicit analyses, enabling the researchers to map forest cover extent, loss, and gain at a high spatial resolution of 30 meters. This spatial specificity provided detailed insights into global forest dynamics.</p>
+</section>
+<section id="reflection" class="level3" data-number="6.0.3">
+<h3 data-number="6.0.3" class="anchored" data-anchor-id="reflection"><span class="header-section-number">6.0.3</span> Reflection</h3>
+<p>This week, we learned a new tool for research called Google Earth Engine, which allows us to run code on servers. During the practical exercises, I noticed a significant increase in speed compared to running code locally, especially when compared to tools like SNAP, which felt quite slow. Tasks such as Mosaic images, Clip images, Texture measures, and PCA, which we previously learned, can all be completed on Google Earth Engine’s servers. The only difference is that Google Earth Engine uses a different programming language, JavaScript, which I wasn’t very familiar with at the beginning. However, as I followed along with the practical exercises, I found that its logic is similar to Python and R, which made it easier for me to pick up. As a result, I became more and more proficient with it as I progressed through the exercises.</p>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
-<div id="ref-knuth84" class="csl-entry" role="listitem">
-Knuth, Donald E. 1984. <span>“Literate Programming.”</span> <em>Comput. J.</em> 27 (2): 97–111. <a href="https://doi.org/10.1093/comjnl/27.2.97">https://doi.org/10.1093/comjnl/27.2.97</a>.
-</div>
-</div>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -458,13 +528,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./index.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span>
+      <a href="./week4.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Week 4 - Policy</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./week1.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Week 1 - Introduction to Remote Sensing</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./week6.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Week 6 - classification 1</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

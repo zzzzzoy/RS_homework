@@ -1,0 +1,47 @@
+---
+title: "Week 4 - Policy"
+---
+
+### Summary
+
+Ahmedabad is situated in the largest district of the western Indian state of Gujarat, with a population of 7.2 million(Knowlton et al., 2014). Its rapid growth in sectors such as real estate, automotive, and pharmaceuticals has positioned it among the top ten fastest-growing cities in India, poised to become one of the country's major metropolises by 2020(Knowlton et al., 2014). However, Ahmedabad faces significant challenges due to extreme heat.
+
+In 2010, Ahmedabad experienced its most severe heat wave on record, with temperatures soaring to 46.8°C (116°F), resulting in 1,344 additional deaths registered. This event served as a warning. The 2016 [Heat Action Plan](https://www.nrdc.org/sites/default/files/ahmedabad-heat-action-plan-2016.pdf) is an updated version of the first comprehensive early warning system and preparedness plan launched in Ahmedabad in 2013. The Heat Action Plan aims to implement four key strategies:
+
+1. Building Public Awareness and Community Outreach to communicate the risks of heat waves
+and implement practices to prevent heat-related deaths and illnesses.
+2. Initiating an Early Warning System and Inter-Agency Coordination to alert residents of
+predicted high and extreme temperatures.
+3. Capacity Building Among Health Care Professionals to recognize and respond to heat-related
+illnesses, particularly during extreme heat events.
+4. Reducing Heat Exposure and Promoting Adaptive Measures by mapping high-risk areas of the city, increasing outreach and communication on prevention methods, and providing access to potable drinking water and cooling spaces during extreme heat days. Collaboration with non-governmental organizations is also identified as a means to expand outreach and communication with the city’s most at-risk communities.
+
+
+### Application
+A remotely sensed data set that could be used to assist in mapping high-risk areas of the city is high-resolution satellite imagery such as Landsat satellite imagery coupled with geographic information system (GIS) data.
+
+High-resolution satellite imagery provides detailed visual information about land cover, land use, and environmental conditions within the city. By analyzing this imagery, it is possible to identify characteristics associated with high-risk areas such as urban heat islands, areas with limited green spaces, industrial zones, and densely populated neighborhoods.
+
+GIS data, on the other hand, includes various layers of spatial information such as demographic data, land use data, infrastructure data, and environmental data. By integrating satellite imagery with GIS data, it becomes possible to overlay and analyze different spatial layers to identify and map high-risk areas.
+
+How the data setes be used:
+1. Land Use/Land Cove(LULC) classification is a crucial step. Landsat imagery can be used to classify land cover types within the city, such as impervious surfaces (roads, buildings), vegetation, water bodies, and bare soil. Areas with high levels of impervious surfaces (e.g., urban areas) can be pinpointed, which are more prone to heat retention and urban heat island effects.
+2. Landsat imagery can also be used to derive surface temperature maps of the city. These temperature maps can help in identifying hotspots within the city that are at higher risk during heatwaves.
+3. Landsat imagery can provide insights into the health and density of vegetation within the city. By mapping vegetation health, policymakers can identify areas where increasing green infrastructure could reduce heat-related risks.
+
+This approach aligns with several global agendas and goals:
+
+Sustainable Development Goals (SDGs): The United Nations' SDGs aim to address global challenges such as poverty, inequality, climate change, and environmental degradation. By mapping high-risk areas of the city, policymakers can identify areas where vulnerable populations are disproportionately affected by environmental risks and take targeted actions to address these issues, contributing to SDGs such as Goal 11 (Sustainable Cities and Communities) and Goal 13 (Climate Action).
+
+
+How it advances current local, national or global approaches:
+
+1. Providing spatially explicit information to support evidence-based decision-making and resource allocation.
+2. Identifying areas where interventions are most needed to protect vulnerable populations and improve public health outcomes.
+3. Enhancing the effectiveness and efficiency of urban planning, infrastructure development, and disaster risk reduction efforts.
+4. Strengthening resilience to climate change and extreme weather events at the local, national, and global levels.
+
+
+### Reflection
+
+Ahmedabad, as a rapidly growing urban center facing significant heat-related challenges, serves as a compelling case study. The city's population density, urban expansion, and environmental conditions contribute to heightened risks during heatwaves. Understanding these local dynamics is crucial for tailoring effective interventions and resilience-building strategies. The utilization of remotely sensed data, such as Landsat satellite imagery, underscores the importance of leveraging technological advancements for informed decision-making. By analyzing land cover, temperature distribution, policymakers could gain valuable insights into the spatial distribution of risk within the city. This enables targeted interventions and resource allocation to areas most in need.

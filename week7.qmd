@@ -1,1 +1,44 @@
-1
+---
+title: "Week 7 - classification 2"
+---
+
+### Summary
+
+#### Object based image analysis (OBIA)
+
+- Instead of considering cells we consider shapes based on the similarity (homogeneity) or difference (heterogeneity) of the cells = superpixels
+- SLIC (Simple Linear Iterative Clustering) Algorithm for Superpixel generation is the most common method
+- The principle involves segmenting remote sensing images into regions with similar characteristics and analyzing and classifying these regions based on their objects
+
+#### Sub pixel analysis
+
+ - the information within a single pixel may be heterogeneous or contain multiple land cover types
+ - Sub-pixel analysis allows for the detection and characterization of fine-scale features or land cover types that may not be distinguishable at the original pixel level.
+ - calculate the proportions of different land cover types within a pixel 
+ - Spectral Mixture Analysis (SMA) determines the proportion or abundance of landcover per pixel
+  
+#### Accuracy assessment
+1. 
+- New dataset to test the output with
+- Train / split the training data
+- Cross validation(best): It involves partitioning the dataset into subsets for training and testing, repeating this process multiple times to obtain reliable performance estimates, Leave OneOut Cross Validation(extreme version, only for smaller datasets): Each data point is held out once as the test set, and the model is trained on the remaining data points. This process is repeated for each data point in the dataset.
+2. 
+- Kappa: Designed to express the accuracy of an image compared to the results by chance, Ranges from 0 to 1
+- Calculate an error matrix
+
+3. Spatial cross validation
+- spatially partition the folded data, folds are from cross validation
+
+- disjoint (no common boundary) using k -means clustering (number of points and a distance)
+- same as cross validation but with clustering to the folds
+- stops our training data and testing data being near each other(this makes sure all the points (or pixels) we train the model with a far away from the points (or pixels) we test the model with)
+
+### Application
+Given that rural features like hedgerows are typically smaller than a single pixel, Thornton, Atkinson and Holland(2006) investigate the effectiveness of employing actual soft-classified high-resolution satellite sensor imagery to enhance the resolution of small rural land cover elements, such as trees and hedgerows, through sub-pixel mapping techniques.
+
+According to 'Object-based detailed vegetation classification with airborne high spatial resolution remote sensing imagery'(Yu et al., 2006),
+the object-based classification method effectively addressed the issue of salt-and-pepper effects observed in traditional pixel-based classification outcomes. Testing conducted at Point Reyes National Seashore in Northern California demonstrated the efficacy of this classification technique in generating a thorough vegetation inventory.
+
+
+### Reflection
+This week, I've been learning about two new classification methods and accuracy assessment techniques. It took me a lot of time to understand their principles, and I still feel like I haven't fully grasped them. However, accuracy assessment is really cool because now I can avoid getting stuck on which classification method is the best. Instead, I just need to apply various methods and then evaluate their accuracy to decide which one to use. While working on practical exercises, I realized that Google Earth Engine offers a plethora of possibilities. It's truly an excellent platform.

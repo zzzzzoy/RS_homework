@@ -1,6 +1,7 @@
 # Introduction
-This is the introduction to my document.
+Hi, I'm Zhongzhen. 
+In my undergraduate studies, I majored in mathematics. During that time, most of my coursework delved into pure theoretical knowledge, and I took numerous courses heavily focused on abstract mathematical concepts. However, I found limited opportunities to apply what I had learned to real-world scenarios.
 
-# Week1 
+Discovering fields like geographic information systems (GIS) and remote sensing has been incredibly rewarding for me. Casa and remote sensing  offer abundant opportunities to bridge theoretical knowledge with practical applications. 
 
-# Week6
+My interest lies in optimizing spatial problems. This passion stems from my undergraduate fascination with operational research, where I delved deep into the study of optimization techniques. Even I once considered pursuing operational research in my graduate studies.

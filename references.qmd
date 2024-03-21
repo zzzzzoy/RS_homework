@@ -1,4 +1,33 @@
 # References {.unnumbered}
 
-::: {#refs}
-:::
+Abdikan, S. et al. (2016) ‘LAND COVER MAPPING USING SENTINEL-1 SAR DATA’, *The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences*, XLI-B7, pp. 757–761. Available at: https://doi.org/10.5194/isprs-archives-XLI-B7-757-2016.
+
+Belgiu, M. and Drăguţ, L. (2016) ‘Random forest in remote sensing: A review of applications and future directions’, *ISPRS Journal of Photogrammetry and Remote Sensing*, 114, pp. 24–31. Available at: https://doi.org/10.1016/j.isprsjprs.2016.01.011.
+
+Chaturvedi, S.K., Banerjee, S. and Lele, S. (2020) ‘An assessment of oil spill detection using Sentinel 1 SAR-C images’, *Journal of Ocean Engineering and Science*, 5(2), pp. 116–135. Available at: https://doi.org/10.1016/j.joes.2019.09.004.
+
+*First applications from Sentinel-2A* (no date). Available at: https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-2/First_applications_from_Sentinel-2A (Accessed: 17 March 2024).
+
+Gorelick, N. et al. (2017) ‘Google Earth Engine: Planetary-scale geospatial analysis for everyone’, *Big Remotely Sensed Data: tools, applications and experiences, 202*, pp. 18–27. Available at: https://doi.org/10.1016/j.rse.2017.06.031.
+
+Hansen, M.C. et al. (2013) ‘High-Resolution Global Maps of 21st-Century Forest Cover Change’, **Science*, 342(6160), pp. 850–853. Available at: https://doi.org/10.1126/science.1244693.
+
+Huang, S. et al. (2021) ‘A commentary review on the use of normalized difference vegetation index (NDVI) in the era of popular remote sensing’, *Journal of Forestry Research*, 32(1), pp. 1–6. Available at: https://doi.org/10.1007/s11676-020-01155-1.
+
+Knowlton, K. et al. (2014) ‘Development and implementation of South Asia’s first heat-health action plan in Ahmedabad (Gujarat, India)’, *International journal of environmental research and public health*, 11(4), pp. 3473–3492.
+
+M. Amani et al. (2020) ‘Google Earth Engine Cloud Computing Platform for Remote Sensing Big Data Applications: A Comprehensive Review’, IEEE *Journal of Selected Topics in Applied Earth Observations and Remote Sensing*, 13, pp. 5326–5350. Available at: https://doi.org/10.1109/JSTARS.2020.3021052.
+
+Pal, M. and Mather, P.M. (2005) ‘Support vector machines for classification in remote sensing’, *International Journal of Remote Sensing*, 26(5), pp. 1007–1011. Available at: https://doi.org/10.1080/01431160512331314083.
+
+Pei, F., Zhou, Y. and Xia, Y. (2021) ‘Application of Normalized Difference Vegetation Index (NDVI) for the Detection of Extreme Precipitation Change’, *Forests*, 12(5). Available at: https://doi.org/10.3390/f12050594.
+
+*Platform – Google Earth Engine* (no date). Available at: https://earthengine.google.com/platform/ (Accessed: 19 March 2024).
+
+*Sentinel-1 - Missions - Sentinel Online - Sentinel Online* (no date). Available at: https://sentinels.copernicus.eu/web/sentinel/missions/sentinel-1 (Accessed: 17 March 2024).
+
+*Sustainable Development Goals | United Nations Development Programme* (no date). Available at: https://www.undp.org/sustainable-development-goals (Accessed: 21 March 2024).
+
+Thornton, M.W., Atkinson, P.M. and Holland, D.A.(2006) ‘Sub‐pixel mapping of rural land cover objects from fine spatial resolution satellite sensor imagery using super‐resolution pixel‐swapping’, *International Journal of Remote Sensing*, 27(3), pp. 473–491. Available at: https://doi.org/10.1080/01431160500207088.
+
+Yu, Q. et al. (2006) ‘Object-based detailed vegetation classification with airborne high spatial resolution remote sensing imagery’, *Photogrammetric Engineering & Remote Sensing*, 72(7), pp. 799–811.
