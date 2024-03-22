@@ -61,7 +61,7 @@ density plot
 <img src="https://github.com/zzzzzoy/rs_homework/blob/main/data/000016.png?raw=true" alt="替代文本" title="figure4"  />
 
 
-### reflection
+### Reflection
 
 This is the very beginning of remote sensing, for me, it is the first contact for me with the subject. Almost everything is new for me. The only thing that I am familiar with is electromagnetic waves. Different wavelength gives electromagnetic waves different properties, like the penetrative ability.
 I thought longer wavelengths were easier to penetrate, while shorter wavelengths were more difficult. However, longer wavelengths of electromagnetic radiation, such as infrared and microwaves, tend to penetrate certain substances more easily. This is because some materials have lower absorption rates for longer wavelengths, allowing radiation of these wavelengths to penetrate relatively easily.
